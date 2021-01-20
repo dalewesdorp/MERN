@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+.idea
+Demo/.eslintcache
+
+# dependencies
+/Demo/node_modules
+/Demo/backend/node_modules
+/Demo/.pnp
+/Demo/.pnp.js
+
+# testing
+/Demo/coverage
+
+# production
+/Demo/build
+
+# misc
+.DS_Store
+/Demo/.env.local
+/Demo/.env.development.local
+/Demo/.env.test.local
+/Demo/.env.production.local
+
+/Demo/npm-debug.log*
+/Demo/yarn-debug.log*
+/Demo/yarn-error.log*
